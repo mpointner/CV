@@ -1,19 +1,19 @@
 <document>
-    <title></title>
-    <favicon></favicon>
+    <title>CV</title>
+    <favicon>https://freepngimg.com/download/temp/9-2-resume-picture_64x64.ico</favicon>
     <head>
         <languages>
-            <en image="images/en.png"/>
+            <en image="https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/GB.png"/>
         </languages>
         <letterhead>
-            <nameWithTitle></nameWithTitle>
-            <adress></adress>
-            <phone></phone>
-            <email></email>
+            <nameWithTitle>John Doe, M.A.</nameWithTitle>
+            <adress>23 Bedford St, Covent Garden, London, U.K.</adress>
+            <phone>+1234567</phone>
+            <email>john@doe.co.uk</email>
         </letterhead>
-        <image></image>
-        <title></title>
-        <name></name>
+        <image>https://www.clipartmax.com/png/middle/144-1442578_flat-person-icon-download-dummy-man.png</image>
+        <title>Curriculum Vitae</title>
+        <name>John Doe</name>
     </head>
     <body>
         <column>
