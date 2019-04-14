@@ -1,0 +1,29 @@
+<document>
+    <title></title>
+    <favicon></favicon>
+    <head>
+        <languages>
+            <en image="images/en.png"/>
+        </languages>
+        <letterhead>
+            <nameWithTitle></nameWithTitle>
+            <adress></adress>
+            <phone></phone>
+            <email></email>
+        </letterhead>
+        <image></image>
+        <title></title>
+        <name></name>
+    </head>
+    <body>
+        <column>
+            <category title="Education" icon="fa-graduation-cap">
+                <item name="Master Program">
+                    <date>Oct 2018 - Present</date>
+                    <location>University</location>
+                    <description><u>Grade:</u> 1.3</description>
+				</item>
+			</category>
+		</column>
+	</body>
+</document>
