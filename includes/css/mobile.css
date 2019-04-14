@@ -1,0 +1,46 @@
+@media only screen and (max-width: 700pt) {
+    .container {
+        background: white;
+    }
+
+    .anschrift {
+        /*padding-bottom: 70px;*/
+        max-width: 60%;
+        margin-left: -0.5em;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .container {
+        padding: 0.5em;
+    }
+
+    .columns {
+        display: block;
+        margin-left: -0.5em;
+    }
+
+    .column {
+        flex: 1 0 100%;
+    }
+
+    .column > * {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .language {
+        margin-bottom: 0;
+    }
+
+    .bild {
+        top: 1.5em;
+    }
+
+    .legend {
+        margin-top: 1.2em;
+        float: none;
+    }
+}

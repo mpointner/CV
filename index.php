@@ -40,43 +40,11 @@ require_once("includes/functions.php");
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $xml->favicon; ?>">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/screen.css" media="all">
-    <link rel="stylesheet" href="css/mobile.css" media="screen">
-    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="includes/css/screen.css" media="all">
+    <link rel="stylesheet" href="includes/css/mobile.css" media="screen">
+    <link rel="stylesheet" href="includes/css/print.css" media="print">
 
-    <script type="text/javascript">
-        var closedCategories = 0;
-        var printClosedCategoriesWarningEnabled = true;
-        var printChromeWarningEnabled = true;
-        function openCloseCategory(id) {
-            var item = document.getElementById('items'+id);
-            var bereich = document.getElementById('bereich'+id);
-            var caret = bereich.getElementsByTagName("h2").item(0).getElementsByTagName("i").item(1);
-            if(item.style.display == "none") {
-                item.style.display = "block";
-                bereich.classList.remove("printHidden");
-                caret.classList.remove("fa-caret-up");
-                caret.classList.add("fa-caret-down");
-                closedCategories--;
-            } else {
-                item.style.display = "none";
-                bereich.classList.add("printHidden");
-                caret.classList.remove("fa-caret-down");
-                caret.classList.add("fa-caret-up");
-                closedCategories++;
-            }
-        }
-        window.onbeforeprint = function () {
-            if(printChromeWarningEnabled && !window.chrome) {
-                alert('Please note that this site is optimized for printing in Google Chrome and might be printed incorrectly in other browsers!');
-                printChromeWarningEnabled = false;
-            }
-            if(printClosedCategoriesWarningEnabled && closedCategories > 0) {
-                alert('Collapsed categories will not be printed, you have to expand them in case you wish to print them!');
-                printClosedCategoriesWarningEnabled = false;
-            }
-        }
-    </script>
+    <script type="text/javascript" src="includes/js/index.js"></script>
 </head>
 <body>
 	<?php container($xml); ?>

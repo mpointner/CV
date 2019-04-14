@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-size: 9pt !important;
+    zoom:100% !important;
+    background: white;
+}
+
+.container {
+    background: white;
+}
+
+.qr {
+    display: block;
+    font-size: .8em;
+}
+
+.colorscheme {
+    display: none;
+}
+
+.bereich:first-child {
+    margin-top: 2.5em;
+}
+
+.container {
+    max-width: none;
+    padding: 0;
+}
+
+.content {
+    padding: 0;
+}
+
+.fa-caret-up, .fa-caret-down {
+    display: none;
+}
+
+.printHidden {
+    display: none;
+}
