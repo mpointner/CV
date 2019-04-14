@@ -13,7 +13,7 @@ Put your images in the *images* folder.
 Name  | Value      | Function
 ----- | ---------- | ---------------------------------------
 l     | [Language] | Set language
-ad    |            | Show address
-adh   |            | Show address but hide it in the QR-Code
-qrh   |            | Hide QR-Code
-adqrh |            | Show address but hide the QR-Code
+ad    | none       | Show address
+adh   | none       | Show address but hide it in the QR-Code
+qrh   | none       | Hide QR-Code
+adqrh | none       | Show address but hide the QR-Code
