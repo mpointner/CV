@@ -28,7 +28,7 @@ if ($xml === false) {
 	return;
 }
 
-require_once("includes/functions.php");
+require_once("includes/php/functions.php");
 
 ?>
 

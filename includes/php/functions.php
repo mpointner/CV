@@ -15,7 +15,7 @@ function getValue($xml, $name, $default = "")
 
 function r($value)
 {
-    /*$value = str_replace("&", "&amp;", $value);*/
+    //$value = str_replace("&", "&amp;", $value);
     $value = str_replace("ä", "&auml;", $value);
     $value = str_replace("Ä", "&Auml;", $value);
     $value = str_replace("ó", "&oacute;", $value);
@@ -24,7 +24,7 @@ function r($value)
     $value = str_replace("ü", "&uuml;", $value);
     $value = str_replace("Ü", "&Uuml;", $value);
     $value = str_replace("ß", "&szlig;", $value);
-//$value = str_replace("-", "&minus;", $value);
+	//$value = str_replace("-", "&minus;", $value);
     return $value;
 }
 
@@ -44,7 +44,7 @@ function image($xml)
 
 function letterhead($xml)
 {
-    global $address, $addressHidden, $addressQrHidden;
+    global $address, $addressHidden, $addressQrHidden, $language;
 
     $nameWithTitle = getValue($xml, "nameWithTitle");
     $adress = r(getValue($xml, "adress"));
@@ -60,7 +60,7 @@ function letterhead($xml)
         echo '<i class="fas fa-phone" alt=""></i><a href="tel:' . $phoneHref . '">' . $phone . '</a><br>';
         echo '<i class="fas fa-at" alt=""></i><a href="mailto:' . $emailHref . '">' . $email . '</a>';
     } else {
-        echo '<div class="addressHidden printHidden" style="margin-left: -42px; color: #CCC;">';
+        echo '<div class="addressHidden printHidden gray" style="margin-left: -2em;">';
         if (isset($language) && $language == "de") {
             echo r('Aus Datenschutzgründen <br>ist der Briefkopf in dieser <br>Online-Version ausgeblendet.');
         } else {
