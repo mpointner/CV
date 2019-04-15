@@ -1,5 +1,7 @@
 # Curriculum Vitae
 
+![Demo image](images/template.png "Demo Template")
+
 ## Data
 
 Save your data in *data/data-**[language]**.xml* as shown in *data/data-template.xml*.

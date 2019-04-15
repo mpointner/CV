@@ -25,5 +25,14 @@
 				</item>
 			</category>
 		</column>
+        <column>
+            <category title="Employment" icon="fa-briefcase">
+                <item name="Software Developer">
+                    <date>2014 - 2018</date>
+                    <location>Company Ltd.</location>
+                    <description><u>Project:</u> Membership administration software</description>
+				</item>
+			</category>
+		</column>
 	</body>
 </document>
