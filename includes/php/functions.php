@@ -73,7 +73,7 @@ function letterhead($xml)
 
 function languages($xml)
 {
-    global $address, $addressHidden, $qrHidden, $addressQrHidden, $addressName, $addressHiddenName, $qrHiddenName, $addressQrHiddenName;
+    global $address, $addressHidden, $qrHidden, $addressQrHidden, $ratingHidden, $addressName, $addressHiddenName, $qrHiddenName, $addressQrHiddenName, $ratingHiddenName;
 
     echo '<div class="language printHidden">';
     $url = 'http://' . $_SERVER['HTTP_HOST'] . strtok($_SERVER['REQUEST_URI'], '?') . "?";
@@ -83,6 +83,7 @@ function languages($xml)
     if (isset($addressHidden)) $parameters[] = $addressHiddenName;
     if (isset($qrHidden)) $parameters[] = $qrHiddenName;
     if (isset($addressQrHidden)) $parameters[] = $addressQrHiddenName;
+    if (isset($ratingHidden)) $parameters[] = $ratingHiddenName;
     if (!empty($parameters)) {
         $url .= join("&", $parameters) . "&";
     }
@@ -245,6 +246,10 @@ function container($xml)
     echo '</div>';
     echo '</div>';
     echo '</div>';
+}
+
+if(isset($ratingHidden)) {
+	echo '<style type="text/css">sub, .legend { display: none; }</style>';
 }
 
 ?>

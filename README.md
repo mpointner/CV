@@ -18,3 +18,4 @@ ad    | none       | Show address
 adh   | none       | Show address but hide it in the QR-Code
 qrh   | none       | Hide QR-Code
 adqrh | none       | Show address but hide the QR-Code
+rh    | none       | Hide ratings (sub tags) and legends
