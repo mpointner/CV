@@ -2,8 +2,8 @@
 
 ## Data
 
-Save your data in _data/data-**[language]**.xml_ as shown in *data/data-template.xml*.
-The **[language]** name should fit_ <languages><**[language]** image="..."/></languages> _in all _data/data-**[language]**.xml_ files for automatic linking between the languages.
+Save your data in data/data-**[language]**.xml as shown in *data/data-template.xml*.
+The **[language]** name should fit <languages><**[language]** image="..."/></languages> in all data/data-**[language]**.xml files for automatic linking between the languages.
 
 ## Images
 
@@ -18,4 +18,4 @@ ad    | none       | Show address
 adh   | none       | Show address but hide it in the QR-Code
 qrh   | none       | Hide QR-Code
 adqrh | none       | Show address but hide the QR-Code
-rh    | none       | Hide ratings (_ <sub> _ tags) and legends (_ <legend> _ tags)
+rh    | none       | Hide ratings (<sub> tags) and legends (<legend> tags)
