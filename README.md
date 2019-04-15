@@ -2,7 +2,8 @@
 
 ## Data
 
-Save your data in *data/data-[language].xml* as shown in *data/data-template.xml*.
+Save your data in *data/data-**[language]**.xml* as shown in *data/data-template.xml*.
+The **[language]** name should fit *<languages><**[language]** image="..."/></languages>* in all *data/data-**[language]**.xml* files for automatic linking between the languages.
 
 ## Images
 
