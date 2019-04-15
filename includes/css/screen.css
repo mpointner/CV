@@ -87,6 +87,10 @@ a {
     font-size: 0.7em;
 }
 
+.label img, .date img, .location img {
+    height: .8em;
+}
+
 .legend {
     float: right;
     margin-top: -5.0em;
