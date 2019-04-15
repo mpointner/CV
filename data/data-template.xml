@@ -4,6 +4,8 @@
     <head>
         <languages>
             <en image="https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/GB.png"/>
+            <de image="https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/DE.png"/>
+            <es image="https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/ES.png"/>
         </languages>
         <letterhead>
             <nameWithTitle>John Doe, M.A.</nameWithTitle>
