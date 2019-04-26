@@ -19,5 +19,5 @@ l     | [Language] | Set language
 ad    | none       | Show address
 adh   | none       | Show address but link to site without address in the QR-Code
 qrh   | none       | Hide QR-Code
-adqrh | none       | Show address but hide the QR-Code
+adqrh | none       | Show address and hide the QR-Code
 rh    | none       | Hide ratings (*\<sub\>* tags) and legends (*\<legend\>* tags)
